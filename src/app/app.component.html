@@ -1,0 +1,34 @@
+<nav class="navbar navbar-expand-lg navbar-light">
+  <a class="navbar-brand" href="#">XD</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+    aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse header" id="navbarNav d-flex ">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a [routerLink]="['/Student_dashboard']" class="nav-link pr-2 pl-5">STUDENT DASHBOARD<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a [routerLink]="['courses']"  class="nav-link pr-2 pl-4">COURSES<span class="sr-only">(current)</span></a>
+        <li class="nav-item">
+            <a [routerLink]="['available']"  class="nav-link pr-2 pl-4">AVAILABLE COURSES<span class="sr-only">(current)</span></a>
+          </li>
+      <li class="nav-item">
+        <a [routerLink]="['payments']"  class="nav-link pr-2 pl-4">PAYMENTS<span class="sr-only">(current)</span></a>
+      </li>
+    </ul>
+    <ul class="navbar-nav my_wish">
+      <li class="nav-item active">
+        <a class="nav-link pr-3" ><i class="fa fa-search" aria-hidden="true"></i></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link pr-3"><i class="fa fa-bell" aria-hidden="true"></i></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link pr-3"><i class="fa fa-user" aria-hidden="true"></i></a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<router-outlet></router-outlet>

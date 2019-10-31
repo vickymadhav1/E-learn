@@ -1,0 +1,120 @@
+.my_courses{
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.cources{
+    width: 100%;
+    border-bottom: 1px solid #ececec;
+    color: #57a0d4;
+}
+.cources_sub{
+    width: 100%;
+    // border-bottom: 1px solid #ececec;
+    color: #57a0d4;
+}
+.tutor{
+    text-align: right;
+    font-size: 15px;
+    border-bottom: 1px solid #ececec;
+    color: #aeaeae;
+}
+.live{
+    width: 100%;
+}
+.content{
+    justify-content: space-between;
+    border-bottom: 1px solid #ececec;
+}
+.from_class{
+   color :#9fb0cc;
+}
+.level {
+    color: #9fb0cc;
+}
+.user{
+    background: #12c2f5;
+    border-radius: 30px;
+    color: white;
+}
+.main_conten {
+    align-items: center;
+}
+.teacher {
+    color: #12c2f5;
+    font-size: 20px;
+    font-weight: 500;
+}
+.interactive{
+    color: #aeaeae;
+}
+.card{
+    border-radius: 0%;
+}
+.chat_starts_my {
+    border-radius: .50rem !important;
+    padding: 10px;
+    width: 80%;
+    float: right;
+}
+.chat_starts{
+    border-radius: .50rem !important;
+    padding: 10px;
+}
+.chat_user{
+    width: fit-content;
+    height: 10%;
+    border-radius: 30px;
+    background: #12c2f5;
+    color: white;
+}
+.my_cell{
+padding-top: 3rem;
+}
+.tutor_replay{
+    border: 1px solid #dcdcdc;
+    padding: 10px;
+    border-radius: .50rem;
+    width: 70%;
+}
+i.fa.fa-paper-plane {
+    position: absolute;
+    right: 4rem;
+    top: 2rem;
+}
+.my_scroll{
+    overflow-y: scroll;
+    height: 303px;
+}
+.vedio_content{
+    border-bottom: 1px solid #dcdcdc;
+}
+.last{
+    border-bottom: 1px solid #dcdcdc;
+    text-align: center;
+}
+.sav_course {
+    border-radius: 30px;
+    background: #fe0000;
+    color: white;
+}
+.all_saved{
+    align-items: center;
+    border-top: 1px solid #aeaeae;
+    padding: 10px;
+}
+.svaed_date{
+    color: #aeaeae;
+}
+.saved_course {
+    color: #12c2f5;
+}
+.version{
+    color: #9f9f9f;
+}
+.duration_hours{
+    color: #9f9f9f;
+}
+.play_record{
+    border-radius: 30px;
+    background: #fbad25;
+    color: white;
+}

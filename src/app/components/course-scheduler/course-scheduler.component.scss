@@ -1,0 +1,195 @@
+.my_courses{
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.cources{
+    width: 100%;
+    border-bottom: 1px solid #ececec;
+    color: #57a0d4;
+}
+.card{
+    border:none;
+    padding: 0px 15px 0px 15px;
+}
+.adj_border{
+    background:#f6f6f6;
+    border-top:1px solid #cdcdcd;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    // border-bottom:1px solid #cdcdcd;
+}
+.course {
+    color: #aeaeae;
+    font-size: 20px;
+    font-weight: 400;
+}
+.second_item{
+    background:white;
+    // border-top:1px solid #cdcdcd;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    // border-bottom:1px solid #cdcdcd;
+}
+.learning{
+    color:#52a8d9;
+    font-weight: 500;
+}
+.represent{
+    color: #aeaeae;
+}
+.from_date{
+    color:#a1b5d3;
+}
+.duration{
+    color:#a1b5d3;
+    margin-top: 3.5rem;
+}
+.extra_bpttom{
+    padding-bottom: 20rem;
+}
+.sample-wrapper {
+    overflow-y: auto;
+}
+
+.calendar-wrapper {
+    max-width: 300px;
+    min-width: 200px;
+    border: 1px solid #e41c77;
+}
+
+#calendar{
+    width: 260px;
+    font-family: 'Lato', sans-serif;
+    height: 340px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  }
+  #calendar_weekdays div{
+    display:inline-block;
+    vertical-align:top;
+  }
+  .calendar_weekday{
+    color: rgb(255, 104, 96) !important;
+      width: 37px!important;
+      height: 50px!important;
+      line-height: 70px!important;
+  }
+  
+  #calendar_content, #calendar_header{
+    position: relative;
+    width: 260px;
+    overflow: hidden;
+    float: left;
+    z-index: 10;
+  }
+  #calendar_weekdays{
+    position: relative;
+    width: 260px;
+    overflow: hidden;
+    float: left;
+    z-index: 10;
+  }
+  #calendar_weekdays div, #calendar_content div{
+    width:37px;
+    height: 40px;
+    line-height: 50px!important;
+    overflow: hidden;
+    text-align: center;
+    background-color: #FFFFFF;
+    color: #787878;
+  }
+  #calendar_content{
+    -webkit-border-radius: 0px 0px 12px 12px;
+    -moz-border-radius: 0px 0px 12px 12px; 
+    border-radius: 0px 0px 12px 12px;
+  }
+  #calendar_content div{
+    float: left;
+  }
+  #calendar_content div:hover{
+    background-color: #F8F8F8;
+  }
+  #calendar_content div.disabled{
+    background-color: #E8E8E8;
+  }
+  #calendar_header, #calendar_content div.disabled{
+    zoom: 1;
+    filter: alpha(opacity=70);
+    opacity: 0.7;
+  }
+  #calendar_content div.today{
+    color: #FFFFFF;
+    background-color: rgb(255, 104, 96);
+        opacity: 0.7;
+  }
+  #calendar_content div.selected {
+    color: #FFFFFF;
+    background-color: rgb(255, 104, 96);
+        opacity: 0.7;
+  }
+  #calendar_header{
+    width: 100%;
+    text-align: center;
+    background-color: #3a9df5;  
+    height: 60px;
+    // -webkit-border-radius: 12px 12px 0px 0px;
+    // -moz-border-radius: 12px 12px 0px 0px; 
+    // border-radius: 12px 12px 0px 0px;
+  }
+  #calendar_header .title{
+    font-size: 1.5em;
+    color: #FFFFFF;
+    float:left;
+    width:70%;
+    line-height: 65px;
+  }
+  .arrow{
+    color: #FFFFFF;
+    float: left;
+    width:15%;
+  }
+  .arrow .mat-icon{
+    line-height: 65px;
+  
+  }
+  .my_calender{
+      margin: 0 auto;
+  }
+  .calender_card{
+      border-top: 1px solid #d6d6d6;
+  }
+  .my_number.m-0 {
+    height: 70px;
+    width: 70px;
+    align-items: center;
+    font-size: 29px;
+    background: deepskyblue;
+    padding: 12px;
+    text-align: center;
+    color: white;
+    font-weight: 500;
+}
+.teacher {
+    color: #aeaeae;
+}
+.my_clsses{
+    font-size: 13px;
+    color: #a1bbdf;
+}
+.time{
+    padding-top: 3rem;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.schedule_button {
+    border-radius: 50px;
+    background: #e9bf43;
+    height: 35px;
+}
+.set_time{
+    color: #a1b5d3;
+    font-size: 15px;
+}
+.containe {
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid #d6d6d6;
+}

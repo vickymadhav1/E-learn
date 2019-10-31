@@ -1,0 +1,52 @@
+.my_courses{
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.cources{
+    width: 100%;
+    border-bottom: 1px solid #ececec;
+    color: #57a0d4;
+}
+    .learning {
+        font-weight: 500;
+        color: #57a0d4;
+    }
+.teacher{
+    color: #D6D6DE;
+}
+.dot {
+    height: 25px;
+    width: 25px;
+    background-color: #3293e5;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  .contents{
+    padding-left: 4rem;
+  }
+ .my_line {
+    position: absolute;
+    width: 61px;
+    text-align: center;
+    border-bottom: 2px solid #3293e5;
+    line-height: 0.1em;
+    margin: 0px 0 19px;
+    bottom: 4px;
+    height: 41px;
+} 
+.dot.bg-white {
+    border: 1px solid #3293e5;
+}
+.rounded_btn{
+    border-radius: 50px;
+    font-size: small;
+}
+.classDates{
+    font-size: 14px;
+}
+.dot_text{
+    font-size: 20px;
+}
+.Machine{
+    border-top: 1px solid #ececec;
+
+}

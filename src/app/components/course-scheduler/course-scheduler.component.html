@@ -1,0 +1,121 @@
+<div class="test py-3"></div>
+<div class="container my_courses mb-4 py-4 p-0">
+    <mat-toolbar class="my_title bg-white">
+        <p class="cources m-0 p-3">Course Scheduler(When you Click Course Schedular)</p>
+    </mat-toolbar>
+    <div class="card calender_card">
+        <div class="col-md-12 d-flex second_item">
+            <div class="col-md-3 d-flex my_calender">
+                <div id="calendar">
+                    <div id="calendar_header">
+                        <div class="arrow">
+                            <mat-icon (click)="goToLastMonth()">arrow_back</mat-icon>
+                        </div>
+                        <div class="title">
+                            {{currentMonth}} - {{currentYear}}
+                        </div>
+                        <div class="arrow">
+                            <mat-icon (click)="goToNextMonth()">arrow_forward</mat-icon>
+                        </div>
+                    </div>
+                    <div id="calendar_weekdays">
+                        <div *ngFor="let day of dayNames" class="calendar_weekday">{{day}}</div>
+                    </div>
+                    <div id="calendar_content">
+                        <!-- <div *ngFor="let dayItem of daysInLastMonth">
+                                    <div class="week-date disabled">
+                                        <span class="date-text">{{dayItem.day}}</span>
+                                    </div>
+                                </div> -->
+                        <div *ngFor="let dayItem of daysInThisMonth">
+                            <div class="week-date enabled" [ngClass]="{'selected' : dayItem.hasEvent }"
+                                (click)="selectDate(dayItem)">
+                                <span class="date-text">{{dayItem.day}}</span>
+                            </div>
+                        </div>
+                        <!-- <div *ngFor="let dayItem of daysInNextMonth">
+                                    <div class="week-date disabled">
+                                        <span class="date-text">{{dayItem.day}}</span>
+                                    </div>
+                                </div> -->
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <!-- hello -->
+                <div class="col-m-12 d-flex">
+                    <div class="containe">
+                        <div class="col-md-8">
+                            <div class="col-md-12 d-flex">
+                                <div class="col-md-3 p-0">
+                                    <div class="items_back  m-3">
+                                        <p class="my_number m-0">10</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-9">
+                                    <p class="learning mt-3 mb-1">Machine Lerning / Deep Learning</p>
+                                    <p class="teacher mb-1">By : Ramakrishna Redyy</p>
+                                    <p class="mb-0 my_clsses">Classes from 02/12/2019 to 16/12/2019</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 p-0">
+                            <div class="time d-flex">
+                                <p class="set_time m-0">Time: 02:00 PM</p>
+                                <button class="btn btn-defaukt schedule_button">RESCHEDULE</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-m-12 d-flex">
+                    <div class="containe">
+                        <div class="col-md-8">
+                            <div class="col-md-12 d-flex">
+                                <div class="col-md-3 p-0">
+                                    <div class="items_back  m-3">
+                                        <p class="my_number m-0">10</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-9">
+                                    <p class="learning mt-3 mb-1">Java</p>
+                                    <p class="teacher mb-1">By : Ramakrishna Redyy</p>
+                                    <p class="mb-0 my_clsses">Classes from 02/12/2019 to 16/12/2019</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 p-0">
+                            <div class="time d-flex">
+                                <p class="set_time m-0">Time: 02:00 PM</p>
+                                <button class="btn btn-defaukt schedule_button">RESCHEDULE</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-m-12 d-flex">
+                    <div class="containe">
+                        <div class="col-md-8">
+                            <div class="col-md-12 d-flex">
+                                <div class="col-md-3 p-0">
+                                    <div class="items_back  m-3">
+                                        <p class="my_number m-0">10</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-9">
+                                    <p class="learning mt-3 mb-1">Angular JS</p>
+                                    <p class="teacher mb-1">By : Ramakrishna Redyy</p>
+                                    <p class="mb-0 my_clsses">Classes from 02/12/2019 to 16/12/2019</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 p-0">
+                            <div class="time d-flex">
+                                <p class="set_time m-0">Time: 02:00 PM</p>
+                                <button class="btn btn-defaukt schedule_button">RESCHEDULE</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

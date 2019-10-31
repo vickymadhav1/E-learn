@@ -1,0 +1,42 @@
+.my_courses{
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.cources{
+    width: 100%;
+    border-bottom: 1px solid #ececec;
+    color: #57a0d4;
+}
+.card{
+    border: none;
+    padding: 0px 15px 0px 15px;
+}
+.cources_border{
+    border-top: 1px solid #cdcdcd;
+}
+.head_title{
+    color: #52a8d9;
+    font-weight: 500;
+}
+.stage_of_level{
+    color: #788eb3;
+}
+.representer{
+color: #989898;
+}
+.from_class{
+    color: #a1bbdf;
+}
+.view_buttons{
+    border-radius: 50px;
+    background: white;
+    border: 1px solid #62b2f3;
+    color: #62b2f3;
+    font-weight: 500;
+}
+i.fa.fa-calendar {
+    font-size: 25px;
+}
+.botom_set{
+    align-items: center;
+    justify-content: space-between;
+}

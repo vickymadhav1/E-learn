@@ -1,0 +1,48 @@
+.my_courses{
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.cources{
+    width: 100%;
+    border-bottom: 1px solid #ececec;
+    color: #57a0d4;
+}
+.card{
+    border:none;
+    padding: 0px 15px 0px 15px;
+}
+.adj_border{
+    background:#f6f6f6;
+    border-top:1px solid #cdcdcd;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom:1px solid #cdcdcd;
+}
+.course {
+    color: #aeaeae;
+    font-size: 20px;
+    font-weight: 400;
+}
+.second_item{
+    background:white;
+    // border-top:1px solid #cdcdcd;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom:1px solid #cdcdcd;
+}
+.learning{
+    color:#52a8d9;
+    font-weight: 500;
+}
+.represent{
+    color: #aeaeae;
+}
+.from_date{
+    color:#a1b5d3;
+}
+.duration{
+    color:#a1b5d3;
+    margin-top: 3.5rem;
+}
+.extra_bpttom{
+    padding-bottom: 20rem;
+}
